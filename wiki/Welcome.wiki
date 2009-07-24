@@ -1,4 +1,4 @@
-#summary Welcome page
+#summary Welcome to Field3D - a file format for storage of voxel- and simulation data
 
 = Introduction =
 
