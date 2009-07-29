@@ -1,13 +1,15 @@
-#summary Welcome to Field3D - a file format for storage of voxel- and simulation data
+#summary Field3D - main page
 
-= Introduction =
+Welcome to the Field3D project. 
 
-Add your content here.
+We are currently in the process of finalizing the first release of code and documentation, so this web site is under constant development. 
 
+Our current schedule is as follows:
 
-= Details =
+  * Aug 6, 2009 - Field3D Birds of a feather meeting at Siggraph 2009 (at 9.30am in Room 287)
+  * Aug 10, 2009 - Release of programmer's guide
+  * Aug 24, 2009 - Upload of code to this site
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+= Information documents =
+
+  * Programmer's guide (pdf) (Will be available Aug 10, 2009)
