@@ -1,7 +1,5 @@
 #summary Field3D - main page
 
-Welcome to the Field3D project. 
-
 We are currently in the process of finalizing the first release of code and documentation, so this web site is under constant development. 
 
 Our current schedule is as follows:
