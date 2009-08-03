@@ -4,10 +4,10 @@ We are currently in the process of finalizing the first release of code and docu
 
 Our current schedule is as follows:
 
+  * Aug 3, 2009 - Release of programmer's guide
   * Aug 6, 2009 - Field3D Birds of a feather meeting at Siggraph 2009 (at 9.30am in Room 287)
-  * Aug 10, 2009 - Release of programmer's guide
   * Aug 24, 2009 - Upload of code to this site
 
 = Information documents =
 
-  * Programmer's guide (pdf) (Will be available Aug 10, 2009)
+  * [http://field3d.googlecode.com/files/Field3D.pdf Programmer's guide (pdf)]
