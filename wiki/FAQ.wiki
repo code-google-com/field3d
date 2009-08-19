@@ -1,0 +1,19 @@
+#summary Frequently asked questions
+
+= FAQ for Field3D =
+
+===Field3d mentions both generic (and presumably slow) voxel access as well as direct (and fast) access. Please explain.===
+
+The Field base class provides both virtual functions for access to voxel data (the `value()` function) as well as iterators for traversing all the voxels in a field. The iterators simply call the `value()` function, but makes it easy to loop over an entire field. 
+
+When coding directly against a known data structure, e.g. `DenseField<float>`, the `fastValue()` call is non-virtual (virtual functions can be unusually slow in threaded applications). Also, the `DenseField` template class provides const and non-const iterators specifically written for it, which are faster than the generic `Field::const_iterator` and `WritableField::iterator`. 
+
+Most likely an application would be written so that it deals with data in the direct, more efficient manner. However, it could also implement routines for handling unknown field types through the generic interface. This future-proofs the application, in that new data structures can be supported that were unavailable when the application first was written, simply by recompiling against the latest library version, or by extending the set of available subclasses through the use of plugins.
+
+=== Can each layer/field have its own resolution? ===
+
+Yes, there is no limitation on the resolution of a field in relationship to another field in the same file, even with the same field name and/or attribute name. Each field's mapping may also be different.
+
+=== Can the fields be offset in space or do they have to be coincident in space? ===
+
+Just as the resolution (extents and data window) may be different, each field may have its own unique mapping, and each mapping may be of a different type. For example, a `MatrixFieldMapping` may be used on one field while another uses some custom mapping type, for example a frustum-aligned mapping.
