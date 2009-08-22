@@ -1,0 +1,7 @@
+#summary Current development status
+#labels Featured
+
+= Status of Field3D development =
+
+  * Aug 21, 2009
+    * The complete code base has just been checked into SVN. <br> The version indicated in the files are 1.0.0, but we are waiting on initial feedback and resolving any potential issues before creating the 1.0.0 release tag.
