@@ -1,0 +1,5 @@
+#summary Instructions for building Field3D
+
+= Building the Field3D library =
+
+(In progress, refer to the README file in the distribution for now)
