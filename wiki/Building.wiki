@@ -33,6 +33,9 @@ Field3D has been built and tested under OS X 10.5. It probably works on older ve
 
 Once !MacPorts is on your system, you can use it to install the libraries that Field3D depends on. Each library will take between a few minutes to an hour to install, so don't be alarmed if it seems nothing is happening.
 
+In a terminal, type the following: 
+(You will be prompted for your password as `sudo` is required for !MacPorts to be able to create the necessary directories)
+
 {{{
   sudo port install boost
   sudo port install hdf5-18
