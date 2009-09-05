@@ -3,6 +3,26 @@
 
 = FAQ for Field3D =
 
+<br>
+
+== General questions ==
+
+=== Where should I send questions, comments or suggestions? ===
+
+Please join the [http://groups.google.com/group/field3d-dev field3d-dev group] and post there. That way all the developers and other users have a chance to help answer your questions.
+
+=== How do I submit a bug? ===
+
+If you come across something that's an obvious bug and doesn't require discussion, then just open a ticket under the "Issues" tab at the top. Provide as much detail as you can. If the problem requires some discussion to determine the best fix we prefer to hold the discussion on the email list - so please join the [http://groups.google.com/group/field3d-dev field3d-dev group] and post there.
+
+=== How do I contribute back to the project? ===
+
+If it's your first contribution to the project, we prefer that you open an Issue ticket and post your patch there for review. Frequent contributors will get commit access to make the process easier. 
+
+<br>
+
+== Questions about the file format and data structures ==
+
 ===Field3d mentions both generic (and presumably slow) voxel access as well as direct (and fast) access. Please explain.===
 
 The Field base class provides both virtual functions for access to voxel data (the `value()` function) as well as iterators for traversing all the voxels in a field. The iterators simply call the `value()` function, but makes it easy to loop over an entire field. 
