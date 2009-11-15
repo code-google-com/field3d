@@ -3,6 +3,8 @@
 
 = Status of Field3D development =
 
+  * Nov 14, 2009
+    * Some `SPI::` namespaces had snuck into the previous commit. If you had trouble compiling before, please update your svn checkout.
 
   * Nov 4, 2009 
     * Version 1.1 has been committed to the main branch. Please refer to r35 for details.
