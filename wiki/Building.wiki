@@ -37,6 +37,7 @@ In a terminal, type the following:
 (You will be prompted for your password as `sudo` is required for !MacPorts to be able to create the necessary directories)
 
 {{{
+  sudo port install scons
   sudo port install boost
   sudo port install hdf5-18
   sudo port install ilmbase
