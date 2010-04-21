@@ -3,6 +3,9 @@
 
 = Status of Field3D development =
 
+  * Apr 21, 2010
+    * Added CMake build system, contributed by Nicholas Yue.
+
   * Nov 14, 2009
     * Some `SPI::` namespaces had snuck into the previous commit. If you had trouble compiling before, please update your svn checkout.
 
