@@ -52,3 +52,18 @@ Field3D will look in your platform's standard directories for include files and 
 = Using a custom math library =
 
 The "Site.py" file can be used to change the math library used by Field3D. The only current requirement is that the other library is syntactically equivalent to Imath. At Sony Imageworks, the Imath library is wrapped in an "SPI" namespace - the _!ExampleSite.py_ and _!SpiMathLib.h_ files shows an example of how to configure it.
+
+= Building with CMake =
+At the source top level directory, create a subdirectory e.g. 'build'
+
+Inside that subdirectory, create an executable script call e.g. build.sh
+
+Inside the build.sh file, add the following content
+
+{{{
+#!/bin/sh
+rm -f CMakeCache.txt
+cmake ..
+}}}
+
+The purpose of doing all this in a subdirectory is for easy clean up after the build.
