@@ -6,6 +6,8 @@
   * [Building Instructions for building the Field3D library]
   * [FAQ Frequently Asked Questions]
 
+  * [ReleaseTagging Instructions for creating a release tag]
+
 = Information documents =
 
   * [http://field3d.googlecode.com/files/Field3D_2009-09-05.pdf Programmer's guide (pdf)]
