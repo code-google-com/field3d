@@ -4,4 +4,12 @@
 
  * 1.0.0 (r12)
    * Initial check-in
- * 1.0.1
+ * 1.0.1 (r29)
+   * FieldMapping intrusive pointers were not thread safe. Fixed. Also fixed reference count in copy constructor.
+   * BuildSupport.py - bug fix for dealing with math header file
+   * Changed required boost version to 1.34.0
+ * 1.1.1 (r35)
+ * 1.1.2 (r38)
+ * 1.1.3 (r40)
+ * 1.1.4 (r41)
+ * 1.1.5 (r63)
