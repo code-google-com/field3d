@@ -9,6 +9,18 @@
    * BuildSupport.py - bug fix for dealing with math header file
    * Changed required boost version to 1.34.0
  * 1.1.1 (r35)
+   * Renamed Log -> Msg
+   * Merged the various class factories into ClassFactory (issue #4)
+   * Replaced str() function with explicit boost::lexical_cast<> calls.
+   * Added more Imath typedefs.
+   * Implemented block cache for SparseField (issue #2)
+   * Added base class for reference counted objects (issue #5)
+   * FieldMapping: Added voxelToWorld that takes iterators.
+   * Renamed LinearFieldInterp/CubicFieldInterp template to LinearGenericFieldInterp/CubicGenericFieldInterp
+     * Uses the code from LinearDenseFieldInterp
+   * Each concrete Field class now has LinearInterp and CubicInterp typedefs for easy access.
+   * Added dataTypeToEnum traits function
+   * Version handling in file reading code. Field3D can now specify a minimum version number that the library is compatible with.
  * 1.1.2 (r38)
  * 1.1.3 (r40)
  * 1.1.4 (r41)
