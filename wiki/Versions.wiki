@@ -22,6 +22,9 @@
    * Added dataTypeToEnum traits function
    * Version handling in file reading code. Field3D can now specify a minimum version number that the library is compatible with.
  * 1.1.2 (r38)
+   * Removed some spurious SPI:: namespaces that had snuck in with the SparseFileManager
  * 1.1.3 (r40)
+   * Commenting and cleanup of SparseFile.h (issue #11)
  * 1.1.4 (r41)
+   * Exposing some utility methods in SparseField (issue #12)
  * 1.1.5 (r63)
