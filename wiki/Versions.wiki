@@ -28,3 +28,6 @@
  * 1.1.4 (r41)
    * Exposing some utility methods in SparseField (issue #12)
  * 1.1.5 (r63)
+   * CMake file added (contributed by Nicholas Yue)
+   * Removed unused member variables in SparseField (issue #24)
+   * BuildSupport.py: addField3DInstall now prepends paths to make sure they take precedence over any installed versions.
