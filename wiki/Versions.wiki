@@ -1,0 +1,7 @@
+#summary Version history
+
+= Version history =
+
+ * 1.0.0 (r12)
+   * Initial check-in
+ * 1.0.1
