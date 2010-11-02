@@ -2,12 +2,19 @@
 
 = Version history =
 
- * 1.0.0 (r12)
-   * Initial check-in
- * 1.0.1 (r29)
-   * FieldMapping intrusive pointers were not thread safe. Fixed. Also fixed reference count in copy constructor.
-   * BuildSupport.py - bug fix for dealing with math header file
-   * Changed required boost version to 1.34.0
+ * 1.1.6 (rXX)
+   * Added 'f3dinfo' app
+   * Moved some of the little test apps from apps/ into test/misc_tests and apps/sample_code
+ * 1.1.5 (r63)
+   * CMake file added (contributed by Nicholas Yue)
+   * Removed unused member variables in SparseField (issue #24)
+   * BuildSupport.py: addField3DInstall now prepends paths to make sure they take precedence over any installed versions.
+ * 1.1.4 (r41)
+   * Exposing some utility methods in SparseField (issue #12)
+ * 1.1.3 (r40)
+   * Commenting and cleanup of SparseFile.h (issue #11)
+ * 1.1.2 (r38)
+   * Removed some spurious SPI:: namespaces that had snuck in with the SparseFileManager
  * 1.1.1 (r35)
    * Renamed Log -> Msg
    * Merged the various class factories into ClassFactory (issue #4)
@@ -21,13 +28,9 @@
    * Each concrete Field class now has LinearInterp and CubicInterp typedefs for easy access.
    * Added dataTypeToEnum traits function
    * Version handling in file reading code. Field3D can now specify a minimum version number that the library is compatible with.
- * 1.1.2 (r38)
-   * Removed some spurious SPI:: namespaces that had snuck in with the SparseFileManager
- * 1.1.3 (r40)
-   * Commenting and cleanup of SparseFile.h (issue #11)
- * 1.1.4 (r41)
-   * Exposing some utility methods in SparseField (issue #12)
- * 1.1.5 (r63)
-   * CMake file added (contributed by Nicholas Yue)
-   * Removed unused member variables in SparseField (issue #24)
-   * BuildSupport.py: addField3DInstall now prepends paths to make sure they take precedence over any installed versions.
+ * 1.0.1 (r29)
+   * FieldMapping intrusive pointers were not thread safe. Fixed. Also fixed reference count in copy constructor.
+   * BuildSupport.py - bug fix for dealing with math header file
+   * Changed required boost version to 1.34.0
+ * 1.0.0 (r12)
+   * Initial check-in
