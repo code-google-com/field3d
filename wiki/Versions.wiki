@@ -5,6 +5,7 @@
  * 1.1.6 (rXX)
    * Added 'f3dinfo' app
    * Moved some of the little test apps from apps/ into test/misc_tests and apps/sample_code
+   * Field3DFile.cpp : parsePartition() will now skip "field3d_global_metadata". This is to ensure that .f3d files written using v1.2 of the library will be readable by v1.1.6. (issue #19)
  * 1.1.5 (r63)
    * CMake file added (contributed by Nicholas Yue)
    * Removed unused member variables in SparseField (issue #24)
