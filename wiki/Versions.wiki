@@ -2,7 +2,7 @@
 
 = Version history =
 
- * 1.1.6 (rXX)
+ * 1.1.6 (r78)
    * Added 'f3dinfo' app
    * Moved some of the little test apps from apps/ into test/misc_tests and apps/sample_code
    * Field3DFile.cpp : parsePartition() will now skip "field3d_global_metadata". This is to ensure that .f3d files written using v1.2 of the library will be readable by v1.1.6. (issue #19)
