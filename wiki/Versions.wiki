@@ -2,6 +2,22 @@
 
 = Version history =
 
+ * 1.2.0 (r95)
+   * Issue #18 - Speed up reading of entire SparseFields
+   * Issue #21 - CubicFieldInterp bug
+   * Issue #28 - Add global metadata
+   * Issue #29 - File I/O code uses dynamic_pointer_cast instead of field_dynamic_cast
+   * Issue #30 - Prevent reading a field 3 times
+   * Issue #31 - Overall SparseField caching improvements
+   * Issue #32 - Replace multiple traits class to single DataTypeTraits
+   * Issue #33 - Proxy fields should include metadata
+   * Issue #34 - releaseBlocks() fails when blocks are partially in use
+   * Issue #35 - Resizing DenseField does not re-allocate memory correctly
+   * Issue #36 - FieldInterp classes should inherit from RefBase
+   * Issue #37 - Disable HDF5 warnings unless DEBUG_HDF is set.
+   * Issue #38 - Silence class registration messages unless $FIELD3D_DEBUG is set
+   * Issue #40 - Race condition opportunity and observed multi-threading crash
+
  * 1.1.6 (r78)
    * Added 'f3dinfo' app
    * Moved some of the little test apps from apps/ into test/misc_tests and apps/sample_code
