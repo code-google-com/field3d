@@ -3,7 +3,6 @@
 = Wiki pages =
 
   * [Versions Version history]
-  * [Status Current development status]
   * [Building Instructions for building the Field3D library]
   * [FAQ Frequently Asked Questions]
 
